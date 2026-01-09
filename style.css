@@ -34,7 +34,7 @@ nav .logo{
     height:60px;
 }
 
-ul{
+nav ul{
     display:flex;
     list-style:none;
     gap: 32px;
@@ -122,7 +122,7 @@ ul{
 }
 
 
-#section .section-container{border:1px solid black;
+#section .section-container{
     margin:0 120px;
     text-align:center;
 
@@ -147,8 +147,11 @@ ul{
 
 
 .card-container .card{
+    width:322px;
+    height:300px;
     box-shadow: 0 0 8px 1px #dddedd;
     margin-top: 44px;
+    padding:24px;
 }
 
 .card-container .card img{
@@ -167,4 +170,52 @@ ul{
 
 .card-container .card p{
     padding:0 5px 20px 5px;
+}
+
+
+#solution{ border:1px solid black;
+}
+
+#solution  .solution-container{border:1px solid black;
+    margin:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+}
+
+.image-container img{
+    border-radius: 12px;
+}
+
+.text-container h4{
+    font-size:16px;
+    margin-bottom: 16px;
+    color: #30b868;
+    font-weight: 500;
+}
+
+.text-container h1{
+    font-size: 38px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.text-container p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.text-container ul{
+    margin-top:40px;
+    list-style: url("assets/CheckCircle.png");
+}
+
+
+.text-container ul li{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
