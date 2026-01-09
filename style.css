@@ -173,10 +173,7 @@ nav ul{
 }
 
 
-#solution{ border:1px solid black;
-}
-
-#solution  .solution-container{border:1px solid black;
+#solution  .solution-container{
     margin:120px;
     display: flex;
     justify-content: center;
@@ -218,4 +215,40 @@ nav ul{
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 16px;
+}
+
+
+.think-container{
+    margin:120px;
+    text-align: center;
+    padding:80px 40px;
+    background-color: #f7f6f2;
+}
+
+.think-container .think-content h1{
+    font-size:30px;
+}
+
+.think-container .think-content p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.think-container .think-btn{
+    margin-top: 24px;
+}
+
+.think-container .think-btn .think-button{
+    display: flex;
+    gap: 6px;
+    margin:0 auto;
+    font-size: 16px;
+}
+
+.think-container .think-btn p{
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
 }
